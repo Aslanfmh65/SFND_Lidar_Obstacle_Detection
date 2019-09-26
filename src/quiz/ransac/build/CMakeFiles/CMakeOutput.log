@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/robond/Desktop/fusion_se
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eeed1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eeed1.dir/build.make CMakeFiles/cmTC_eeed1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_db135/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db135.dir/build.make CMakeFiles/cmTC_db135.dir/build
 make[1]: Entering directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eeed1.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_eeed1.dir/testCCompiler.c.o   -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_eeed1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeed1.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_eeed1.dir/testCCompiler.c.o  -o cmTC_eeed1 -rdynamic 
+Building C object CMakeFiles/cmTC_db135.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_db135.dir/testCCompiler.c.o   -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_db135
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db135.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_db135.dir/testCCompiler.c.o  -o cmTC_db135 -rdynamic 
 make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_03f4c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_03f4c.dir/build.make CMakeFiles/cmTC_03f4c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b8895/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8895.dir/build.make CMakeFiles/cmTC_b8895.dir/build
 make[1]: Entering directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_03f4c.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_03f4c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_03f4c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03f4c.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_03f4c.dir/CMakeCCompilerABI.c.o  -o cmTC_03f4c -rdynamic  
+Building C object CMakeFiles/cmTC_b8895.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b8895.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_b8895
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8895.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_b8895.dir/CMakeCCompilerABI.c.o  -o cmTC_b8895 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03f4c' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1Y5vP6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_03f4c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_03f4c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b8895' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdGxDv9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b8895 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b8895.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_03f4c/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_03f4c.dir/build.make CMakeFiles/cmTC_03f4c.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b8895/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b8895.dir/build.make CMakeFiles/cmTC_b8895.dir/build]
   ignore line: [make[1]: Entering directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_03f4c.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_03f4c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_03f4c]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03f4c.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_03f4c.dir/CMakeCCompilerABI.c.o  -o cmTC_03f4c -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_b8895.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_b8895.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_b8895]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8895.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_b8895.dir/CMakeCCompilerABI.c.o  -o cmTC_b8895 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03f4c' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1Y5vP6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_03f4c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_03f4c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b8895' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdGxDv9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b8895 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b8895.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc1Y5vP6.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdGxDv9.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_03f4c] ==> ignore
+    arg [cmTC_b8895] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_03f4c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_b8895.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -155,14 +155,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_19108/fast"
-/usr/bin/make -f CMakeFiles/cmTC_19108.dir/build.make CMakeFiles/cmTC_19108.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d1149/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1149.dir/build.make CMakeFiles/cmTC_d1149.dir/build
 make[1]: Entering directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_19108.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_19108.dir/feature_tests.c.o   -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_19108
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19108.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_19108.dir/feature_tests.c.o  -o cmTC_19108 -rdynamic 
+Building C object CMakeFiles/cmTC_d1149.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_d1149.dir/feature_tests.c.o   -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d1149
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1149.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d1149.dir/feature_tests.c.o  -o cmTC_d1149 -rdynamic 
 make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
 
 
@@ -175,14 +175,14 @@ make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_De
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e4726/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e4726.dir/build.make CMakeFiles/cmTC_e4726.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c374f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c374f.dir/build.make CMakeFiles/cmTC_c374f.dir/build
 make[1]: Entering directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e4726.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_e4726.dir/feature_tests.c.o   -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e4726
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4726.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_e4726.dir/feature_tests.c.o  -o cmTC_e4726 -rdynamic 
+Building C object CMakeFiles/cmTC_c374f.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_c374f.dir/feature_tests.c.o   -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c374f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c374f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c374f.dir/feature_tests.c.o  -o cmTC_c374f -rdynamic 
 make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
 
 
@@ -195,14 +195,14 @@ make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_De
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a1d69/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a1d69.dir/build.make CMakeFiles/cmTC_a1d69.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_80d74/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80d74.dir/build.make CMakeFiles/cmTC_80d74.dir/build
 make[1]: Entering directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a1d69.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_a1d69.dir/feature_tests.c.o   -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a1d69
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1d69.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_a1d69.dir/feature_tests.c.o  -o cmTC_a1d69 -rdynamic 
+Building C object CMakeFiles/cmTC_80d74.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_80d74.dir/feature_tests.c.o   -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_80d74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80d74.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_80d74.dir/feature_tests.c.o  -o cmTC_80d74 -rdynamic 
 make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
 
 
@@ -213,28 +213,28 @@ make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_De
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_542b1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_542b1.dir/build.make CMakeFiles/cmTC_542b1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1a272/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a272.dir/build.make CMakeFiles/cmTC_1a272.dir/build
 make[1]: Entering directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_542b1.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_542b1.dir/testCXXCompiler.cxx.o -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_542b1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_542b1.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_542b1.dir/testCXXCompiler.cxx.o  -o cmTC_542b1 -rdynamic 
+Building CXX object CMakeFiles/cmTC_1a272.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_1a272.dir/testCXXCompiler.cxx.o -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1a272
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a272.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_1a272.dir/testCXXCompiler.cxx.o  -o cmTC_1a272 -rdynamic 
 make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b4228/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b4228.dir/build.make CMakeFiles/cmTC_b4228.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_64ccc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64ccc.dir/build.make CMakeFiles/cmTC_64ccc.dir/build
 make[1]: Entering directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b4228.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_b4228.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_b4228
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4228.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_b4228.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b4228 -rdynamic  
+Building CXX object CMakeFiles/cmTC_64ccc.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_64ccc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_64ccc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64ccc.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_64ccc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_64ccc -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,8 +244,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4228' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccq5pumq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b4228 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b4228.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_64ccc' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnt7v5n.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_64ccc /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_64ccc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
 
 
@@ -253,14 +253,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b4228/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b4228.dir/build.make CMakeFiles/cmTC_b4228.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_64ccc/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_64ccc.dir/build.make CMakeFiles/cmTC_64ccc.dir/build]
   ignore line: [make[1]: Entering directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b4228.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_b4228.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_b4228]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4228.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_b4228.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b4228 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_64ccc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_64ccc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_64ccc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64ccc.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_64ccc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_64ccc -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4228' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccq5pumq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b4228 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b4228.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_64ccc' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnt7v5n.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_64ccc /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_64ccc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccq5pumq.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccnt7v5n.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b4228] ==> ignore
+    arg [cmTC_64ccc] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_b4228.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_64ccc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -338,14 +338,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_00760/fast"
-/usr/bin/make -f CMakeFiles/cmTC_00760.dir/build.make CMakeFiles/cmTC_00760.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2b61e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b61e.dir/build.make CMakeFiles/cmTC_2b61e.dir/build
 make[1]: Entering directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_00760.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_00760.dir/feature_tests.cxx.o -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_00760
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00760.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_00760.dir/feature_tests.cxx.o  -o cmTC_00760 -rdynamic 
+Building CXX object CMakeFiles/cmTC_2b61e.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_2b61e.dir/feature_tests.cxx.o -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2b61e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b61e.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_2b61e.dir/feature_tests.cxx.o  -o cmTC_2b61e -rdynamic 
 make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
 
 
@@ -411,14 +411,14 @@ make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_De
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ff378/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ff378.dir/build.make CMakeFiles/cmTC_ff378.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_125a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_125a7.dir/build.make CMakeFiles/cmTC_125a7.dir/build
 make[1]: Entering directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ff378.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_ff378.dir/feature_tests.cxx.o -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ff378
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff378.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_ff378.dir/feature_tests.cxx.o  -o cmTC_ff378 -rdynamic 
+Building CXX object CMakeFiles/cmTC_125a7.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_125a7.dir/feature_tests.cxx.o -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_125a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_125a7.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_125a7.dir/feature_tests.cxx.o  -o cmTC_125a7 -rdynamic 
 make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
 
 
@@ -484,14 +484,14 @@ make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_De
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_61097/fast"
-/usr/bin/make -f CMakeFiles/cmTC_61097.dir/build.make CMakeFiles/cmTC_61097.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_af823/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af823.dir/build.make CMakeFiles/cmTC_af823.dir/build
 make[1]: Entering directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_61097.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_61097.dir/feature_tests.cxx.o -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_61097
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61097.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_61097.dir/feature_tests.cxx.o  -o cmTC_61097 -rdynamic 
+Building CXX object CMakeFiles/cmTC_af823.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_af823.dir/feature_tests.cxx.o -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_af823
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af823.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_af823.dir/feature_tests.cxx.o  -o cmTC_af823 -rdynamic 
 make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
 
 
@@ -555,28 +555,28 @@ make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_De
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_29016/fast"
-/usr/bin/make -f CMakeFiles/cmTC_29016.dir/build.make CMakeFiles/cmTC_29016.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3e9a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e9a5.dir/build.make CMakeFiles/cmTC_3e9a5.dir/build
 make[1]: Entering directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_29016.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_29016.dir/CheckIncludeFile.c.o   -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_29016
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29016.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_29016.dir/CheckIncludeFile.c.o  -o cmTC_29016 -rdynamic 
+Building C object CMakeFiles/cmTC_3e9a5.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_3e9a5.dir/CheckIncludeFile.c.o   -c /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3e9a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e9a5.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_3e9a5.dir/CheckIncludeFile.c.o  -o cmTC_3e9a5 -rdynamic 
 make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_32445/fast"
-/usr/bin/make -f CMakeFiles/cmTC_32445.dir/build.make CMakeFiles/cmTC_32445.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0f47d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f47d.dir/build.make CMakeFiles/cmTC_0f47d.dir/build
 make[1]: Entering directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_32445.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_32445.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_32445
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32445.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_32445.dir/CheckFunctionExists.c.o  -o cmTC_32445 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_0f47d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0f47d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0f47d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f47d.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_0f47d.dir/CheckFunctionExists.c.o  -o cmTC_0f47d -rdynamic -lpthread 
 make[1]: Leaving directory '/home/robond/Desktop/fusion_sensor/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
 
 
