@@ -63,8 +63,8 @@ void simpleHighway(pcl::visualization::PCLVisualizer::Ptr& viewer)
     
 
     //Free the allocated memory
-     delete [] lidar;
-     delete [] pointProcessor;
+    //delete [] lidar;
+    //delete [] pointProcessor;
   
 }
 
