@@ -12,9 +12,9 @@ std::vector<Car> initHighway(bool renderScene, pcl::visualization::PCLVisualizer
 {
 
     Car egoCar( Vect3(0,0,0), Vect3(4,2,2), Color(0,1,0), "egoCar");
-    Car car1( Vect3(15,0,0), Vect3(4,2,2), Color(0,0,1), "car1");
-    Car car2( Vect3(8,-4,0), Vect3(4,2,2), Color(0,0,1), "car2");	
-    Car car3( Vect3(-12,4,0), Vect3(4,2,2), Color(0,0,1), "car3");
+    Car car1( Vect3(15,0,0), Vect3(4,2,2), Color(1,1,1), "car1");
+    Car car2( Vect3(8,-4,0), Vect3(4,2,2), Color(1,1,1), "car2");	
+    Car car3( Vect3(-12,4,0), Vect3(4,2,2), Color(1,1,1), "car3");
   
     std::vector<Car> cars;
     cars.push_back(egoCar);
@@ -57,12 +57,16 @@ void simpleHighway(pcl::visualization::PCLVisualizer::Ptr& viewer)
     // TODO:: Create point processor
     ProcessPointClouds<pcl::PointXYZ> *pointProcessor = new ProcessPointClouds<pcl::PointXYZ>();
     std::pair<pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr> segmentCloud = pointProcessor->SegmentPlane(inputCloud, 50, 0.2);
-    renderPointCloud(viewer,segmentCloud.first,"obstCloud",Color(1,0,0));
-    renderPointCloud(viewer,segmentCloud.second,"planeCloud",Color(0,1,0));
+    //renderPointCloud(viewer,segmentCloud.first,"obstCloud",Color(1,0,0));
+    //renderPointCloud(viewer,segmentCloud.second,"planeCloud",Color(0,1,0));
 
-    std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> cloudClusters = pointProcessor->Clustering(segmentCloud.first, 0.5, 3, 30);
+
+    float clusterTolerance = 0.6; 
+    int minSize = 5; 
+    int maxSize = 50;
+    std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> cloudClusters = pointProcessor->Clustering(segmentCloud.first, clusterTolerance, minSize, maxSize);
     int clusterId = 0;
-    std::vector<Color> colors = {Color(1,0,1), Color(1,1,0), Color(0,1,1)};
+    std::vector<Color> colors = {Color(1,0,0), Color(0,1,0), Color(0,0,1)};
 
     for(pcl::PointCloud<pcl::PointXYZ>::Ptr cluster : cloudClusters)
     {
