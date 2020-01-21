@@ -96,6 +96,12 @@ std::unordered_set<int> Ransac(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, int ma
 		y3 = cloud->points[*itr].y;
 		z3 = cloud->points[*itr].z;
 
+		// // For 2D RANSAC:
+		// float a = (y1-y2);
+		// float b = (x2-x1);
+		// float c = (x1*y2-x2*y1);
+
+		// For 3D RANSAC: taking cross product of v1 x v2
 		float a = (y2 - y1)*(z3 - z1) - (z2 - z1)*(y3 - y1);
 		float b = (z2 - z1)*(x3 - x1) - (x2 - x1)*(z3 - z1);
 		float c = (x2 - x1)*(y3 - y1) - (y2 - y1)*(x3 - x1);
@@ -108,13 +114,18 @@ std::unordered_set<int> Ransac(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, int ma
 				
 			pcl::PointXYZ point = cloud->points[index];
 
+			// // For 2D RANSAC
+			// float x3 = point.x;
+			// float y3 = point.y;
+			// float d = fabs(a*x3+b*y3+c)/sqrt(a*a+b*b);
+
+			// For 3D RANSAC
 			float x4 = point.x;
 			float y4 = point.y;
 			float z4 = point.z;
+			float d = fabs(a*x4+b*y4+c*z4+d)/sqrt(a*a+b*b+c*c);
 
-			float distance = fabs(a*x4+b*y4+c*z4+d)/sqrt(a*a+b*b+c*c);
-
-			if (distance <= distanceTol)
+			if (d <= distanceTol)
 				inliers.insert(index);
 		}
 
@@ -133,11 +144,10 @@ int main ()
 	pcl::visualization::PCLVisualizer::Ptr viewer = initScene();
 
 	// Create data
-	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud = CreateData();
-	
+	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud = CreateData3D();
 
 	// TODO: Change the max iteration and distance tolerance arguments for Ransac function
-	std::unordered_set<int> inliers = Ransac(cloud, 10, 1.0);
+	std::unordered_set<int> inliers = Ransac(cloud, 10, 0.5);
 
 	pcl::PointCloud<pcl::PointXYZ>::Ptr  cloudInliers(new pcl::PointCloud<pcl::PointXYZ>());
 	pcl::PointCloud<pcl::PointXYZ>::Ptr cloudOutliers(new pcl::PointCloud<pcl::PointXYZ>());

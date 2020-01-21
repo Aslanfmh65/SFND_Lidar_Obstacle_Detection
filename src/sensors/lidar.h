@@ -86,19 +86,19 @@ struct Lidar
 		: cloud(new pcl::PointCloud<pcl::PointXYZ>()), position(0,0,2.6)
 	{
 		// TODO:: set minDistance to 5 to remove points from roof of ego car
-		minDistance = 5;
+		minDistance = 4;
 		maxDistance = 80;
 		resoultion = 0.1;
 		// TODO:: set sderr to 0.2 to get more interesting pcd files
-		sderr = 0.2;
+		sderr = 0.2; // noise
 		cars = setCars;
 		groundSlope = setGroundSlope;
 
 		// TODO:: increase number of layers to 8 to get higher resoultion pcd
-		int numLayers = 20;
+		int numLayers = 10;
 		// the steepest vertical angle
-		double steepestAngle =  30.0*(-pi/180);
-		double angleRange = 26.0*(pi/180);
+		double steepestAngle =  25.0*(-pi/180);
+		double angleRange = 22.0*(pi/180);
 		// TODO:: set to pi/64 to get higher resoultion pcd
 		double horizontalAngleInc = pi/64;
 
@@ -119,6 +119,7 @@ struct Lidar
 		// pcl uses boost smart pointers for cloud pointer so we don't have to worry about manually freeing the memory
 	}
 
+	// scan() function is used to generate PCD from enviornment for us 
 	pcl::PointCloud<pcl::PointXYZ>::Ptr scan()
 	{
 		cloud->points.clear();
